@@ -1,0 +1,243 @@
+@media(max-width: 1240px){
+   .team__item--1{
+   top: 105px;
+    right: 177px;
+   }
+   .team__item--2{
+      top: 185px;
+      left: 115px;
+   }
+   .team__item--3{
+      right: 133px;
+
+   }
+   .team__item--4{
+      left: 305px;
+      top: 470px;
+   }
+   .team__inner{
+      padding-bottom: 270px;
+   }
+   .management__item{
+      margin-bottom: 0;
+   }
+}
+@media(max-width: 1174px){
+   .slider__item img{
+      width: 100%;
+      height: 250px;
+   }
+   .slider{
+      margin: 0;
+   }
+   .slider__item{
+      padding: 10px;
+   }
+   .footer__inner{
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 0;
+   }
+   .footer__form{
+      margin-top: 15px;
+   }
+   .footer__form input{
+      width: 100%;
+   }
+   .footer__form-btn,
+   .footer__form-text{
+      text-align: center;
+   }
+}
+@media(max-width: 990px){
+   .header__inner{
+      flex-wrap: wrap;
+      height: auto;
+      padding-top: 25px;
+   }
+   .menu{
+      order: 1;
+      width: 100%;
+   }
+   .menu__list{
+      justify-content: flex-end;
+      padding-top: 30px;
+   }
+   .menu__list-link{
+      /* border-bottom: 1px solid#2F281E;
+      border-top: 1px solid #2F281E; */
+   }
+   .top__inner{
+      background-image: none;
+      padding: 70px 0 60px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .top__inner .btn-link{
+      margin-bottom: 31px;
+      margin-left: 30px;
+   }
+   .design{
+      margin-top: 30px;
+   }
+   .design__wrapper{
+      padding-bottom: 60px;
+   }
+   .design__title{
+      margin-bottom: 5px;
+   }
+   .design__items{
+      flex-wrap: wrap;
+   }
+   .design__item{
+      
+      margin-top: 15px;
+      width: 50%;
+   }
+   .design__item-text{
+      padding-right: 20px;
+   }
+   .management__item-img{
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 30%;
+      height: 30%;
+   }
+   .management__item{
+      margin-bottom: 30px;
+      justify-content: space-around;
+   }
+   .management__item-content{
+      width: 100%;
+   }
+   
+}
+@media(max-width: 845px){
+   .team__item{
+      display: none;
+   }
+   .team__inner{
+      padding-top: 50px;
+      padding-bottom: 40px;
+   }
+}
+@media(max-width: 860px){
+   .management__item-img{
+      width: 50%;
+   }
+   .management__item{
+      margin-bottom: 30px;
+   }
+   .management__item-img{
+      order: -1;
+   }
+   .footer .footer__logo {
+      order: -1;
+      width: 100%;
+      margin: 0 auto;
+   }
+   .footer__logo img{
+      display: block;
+      margin: 0 auto 30px;
+   }
+   .footer__menu{
+      margin-bottom: 25px;
+   }
+
+  
+
+}
+@media(max-width: 524px){
+   .header__inner{
+      display: block;
+   }
+   .header__logo{
+      margin-left: 0;
+      margin-right: 315px; /*ml*/
+   }
+   .menu{}
+   .menu__list{
+      display: block;
+      width: 100%;
+      left: 0;
+      right: 0;
+      position: absolute;
+      background-color: #fff;
+      text-align: center;
+      transition: all .90s;
+      transform: translateY(-300%);
+   }
+   .menu__list.menu__list--active{
+      transform: translateY(0%);
+      transition: all .90s;
+   }
+   .menu__list-item{
+      margin: 0;
+   }
+   .menu__list-link{
+      display: block;
+      padding: 10px 0;
+   }
+   .menu__btn{
+      display: block; /*flex*/
+      position: absolute;
+      right: 10px;
+      top: 25px;
+   }
+   .user-nav{
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+      padding-top: 30px;
+      
+   }
+   .menu__list-item + .menu__list-item{
+      margin-left: 0;
+   }
+   .top__inner .btn-link{
+      margin-bottom: 40px;
+   }
+   .top__title,
+   .design__title,
+   .management__item-title,
+   .team__title,
+   .strategies__title{
+      font-size: 28px;
+      line-height: 32px;
+   }
+   .top__inner .btn-link,
+   .top__inner .top__video{
+      margin-left: 0px;
+   }
+   .design__wrapper{
+      border-radius: 0;
+   }
+   .design{
+      margin-top: 10px;
+   }
+   .design__item{
+      width: 100%;
+      text-align: center;
+      border-radius: 0;
+   }
+   .management__item-img{
+      margin-bottom: 40px;
+   }
+   .management{
+      margin: 15px 0 15px;
+   }
+   .slider__item-text,
+   .strategies__text{
+      margin-bottom: 15px;
+   }
+   .strategies__title,
+   .slider__item-text{
+      text-align: center;
+   }
+   
+
+}
+
+/* TIME 3:01 */
